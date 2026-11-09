@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  role_name: mysql
+  namespace: avi1505
+  author: avi1505
+  description: Configureert MySQL met een database en gebruiker op Ubuntu.
+  license: MIT
+  min_ansible_version: "2.19"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - noble
+
+  galaxy_tags:
+    - mysql
+    - database
+    - ubuntu
+
+dependencies: []

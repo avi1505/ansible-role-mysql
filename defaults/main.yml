@@ -1,0 +1,16 @@
+---
+mysql_packages:
+  - mysql-server
+  - python3-pymysql
+
+mysql_service: mysql
+mysql_database: les04
+mysql_username: dbuser
+
+#Wachtwoord opgeven.
+mysql_password: ""
+
+mysql_bind_address: "127.0.0.1"
+
+mysql_allowed_hosts:
+  - localhost
